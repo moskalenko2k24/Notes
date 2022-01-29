@@ -28,15 +28,23 @@
 Виртуалка с Ubuntu, редактором кода и терминалом.
 
 Очень удобно, если нужно что-то потестировать в консоли Linux, а у вас Windows. <br>
-Можно доставить нужные утилиты (через `apt install`). От создателей курса CS50.
+Можно установить нужные утилиты (через `apt install`). От создателей курса CS50.
 
-## 4. CodePen
+## 4. Google Cloud Shell
+
+[ссылка](https://shell.cloud.google.com/)
+
+Виртуалка с Linux (Debian) и [Theia](https://theia-ide.org/) (не отличить от VS Code). <br>
+Дополнительные утилиты можно установить через `sudo apt install`
+> [Free access](https://cloud.google.com/free/docs/gcp-free-tier#free-tier-usage-limits) to Cloud Shell, including 5 GB of persistent disk storage
+
+## 5. CodePen
 
 [ссылка](https://codepen.io)
 
 Песочница для JavaScript(FrontEnd) приложений.
 
-## 5. Shadertoy
+## 6. Shadertoy
 
 [ссылка](https://www.shadertoy.com/)
 
