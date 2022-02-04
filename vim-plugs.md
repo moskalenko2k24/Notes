@@ -89,11 +89,7 @@ sudo dnf install gnome-extensions-app
 Плагин, который автоматически добавляет закрывающую скобку, кавычку и.т.д.
 
 ```vim
-" call plug#begin('~/.vim/plugged')
-" ...
 Plug 'jiangmiao/auto-pairs'
-" ...
-" call plug#end()
 ```
 
 ### Обернуть в скобки
@@ -115,11 +111,7 @@ Plug 'jiangmiao/auto-pairs'
 Для изменения тега используется команда `cst<tag>`.
 
 ```vim
-" call plug#begin('~/.vim/plugged')
-" ...
 Plug 'tpope/vim-surround'
-" ...
-" call plug#end()
 ```
 
 ### Комментирование кода
@@ -132,11 +124,7 @@ Plug 'tpope/vim-surround'
 Поддерживает более 300 типов файлов.
 
 ```vim
-" call plug#begin('~/.vim/plugged')
-" ...
 Plug 'tyru/caw.vim'
-" ...
-" call plug#end()
 ```
 
 ### EditorConfig
@@ -148,13 +136,11 @@ Plug 'tyru/caw.vim'
 параметры, такие как ширина отступа, тип отступа(пробел / таб), символ "конец строки" (Win / Unix) и.т.д.
 А IDE / редакторы с помощью плагина, для каждого конкретного проекта выставляют нужные настройки, 
 таким образом в одном редакторе можно поддерживать разные настройки(типа отступов) для разных проектов.
+И это удобно для работы в команде, с одним EditorConfig
+для одного проекта будут одинаковые настройки (отступы и вот это всё) в разных IDE.
 
 ```vim
-" call plug#begin('~/.vim/plugged')
-" ...
 Plug 'editorconfig/editorconfig-vim'
-" ...
-" call plug#end()
 ```
 
 ### Дерево файлов
@@ -167,15 +153,11 @@ Plug 'editorconfig/editorconfig-vim'
 Можно добавить игнорируемые директории, с помощью `g:NERDTreeIgnore`.
 
 ```vim
-" call plug#begin('~/.vim/plugged')
-" ...
 Plug 'preservim/nerdtree'
 " Open file tree with C-N
 nnoremap <C-n> :NERDTreeToggle<CR>
 " Ingore some directories
 let g:NERDTreeIgnore = ['^node_modules$']
-" ...
-" call plug#end()
 ```
 
 ### Навигация с помощью Ctrl + P
@@ -186,11 +168,7 @@ let g:NERDTreeIgnore = ['^node_modules$']
 Достаточно набрать часть имени файла и найдутся файлы с похожим именем.
 
 ```vim
-" call plug#begin('~/.vim/plugged')
-" ...
 Plug 'ctrlpvim/ctrlp.vim'
-" ...
-" call plug#end()
 ```
 
 ### Навигация по файлам с предпросмотром
@@ -200,12 +178,8 @@ Plug 'ctrlpvim/ctrlp.vim'
 Чтобы найти нужный файл, используется команда `:Files`.
 
 ```vim
-" call plug#begin('~/.vim/plugged')
-" ...
 Plug 'junegunn/fzf', { 'do': { -> fzf#install() } }
 Plug 'junegunn/fzf.vim'
-" ...
-" call plug#end()
 ```
 
 ### Мультикурсоры
@@ -222,16 +196,12 @@ Plug 'junegunn/fzf.vim'
 Стандартный `C-N`(который добавляет курсор к следующему слову) у меня перекрывает `C-N` от NERDTree, да и особо не пользуюсь я таким.
 
 ```vim
-" call plug#begin('~/.vim/plugged')
-" ...
 " Multicursors
 Plug 'mg979/vim-visual-multi'
 " Disable standard mappings
 let g:VM_maps = {}
 let g:VM_maps["Add Cursor Up"]   = '<C-Up>'
 let g:VM_maps["Add Cursor Down"] = '<C-Down>'
-" ...
-" call plug#end()
 ```
 Чтобы включить мультикурсоры, нажимаю `C-Up` / `С-Down`,
 и дальше нажимаю `i` чтобы перейти в режим вставки.
