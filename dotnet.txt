@@ -1,0 +1,68 @@
+0) Информация про .NET
+dotnet --version
+
+Список доступных SDK
+dotnet --list-sdks
+
+Список доступных Runtime
+dotnet --list-runtimes
+
+1) Создание проектов
+
+Создать проект
+dotnet new <template>
+
+-lang / --language  <lang>        язык создаваемого проекта (C#, F#, VB)
+   -f / --framework <framework>   фреймворк (net5.0, netcoreapp3.1 / 3.0)
+   -o / --output    <path>        расположение проекта
+   -i / --install   <template>    установить новый шаблон
+   -u / --uninstall <template>    удалить шаблон
+        --search    <template>    поиск шаблонов на NuGet
+
+Создать решение (solution)
+dotnet new sln
+
+Список доступных шаблонов
+dotnet new --list [-lang <lang>]
+
+Основные шаблоны
+gitignore          dotnet gitignore file
+globaljson         global.json file
+sln                Solution File
+console            Console Application
+web                ASP.NET Core Empty
+mvc                ASP.NET Core Web App (MVC)
+webapi             ASP.NET Core Web API
+nunit              NUnit 3 Test Project
+xunit              xUnit Test Project
+
+2) Управление решением
+
+Для команд ниже,
+если <sln-file> не указан,
+то будет найден .sln в текущей директории
+
+Добавить проект к решению
+dotnet sln <sln-file> add <project-file>
+
+Удалить проект из файла решения
+dotnet sln <sln-file> remove <project-file>
+
+Вывести список всех проектов в файле решения
+dotnet sln <sln-file> list
+
+3) Сборка и запуск
+
+Восстановить зависимости проекта
+dotnet restore
+(эта команда неявно вызывается 
+ при использовании других команд, таких как dotnet run)
+
+Собрать проект
+dotnet build
+
+Собрать и запустить проект
+dotnet run
+
+Запустить собранный проект
+dotnet <assembly.dll>
