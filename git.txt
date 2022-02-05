@@ -1,0 +1,158 @@
+1) Первоначальная настройка
+
+git config --global user.name "Name name"
+git config --global user.email "email@example.com"
+git config --global core.editor "edtior" (vim / nano / etc) 
+
+Если для каких-то отдельных проектов вы хотите указать другое имя / почту,
+можно выполнить эту же команду без параметра --global в каталоге с нужным проектом.
+
+Просмотр значений ключа
+git config user.name
+
+2) Начало работы
+git init
+git add file
+git commit -m 'Initial commit'
+
+3) Запись изменений
+
+Файл в рабочем каталоге может находиться в одном из двух состояний:
+— отслеживаемые (tracked), т.е под версионным контролем
+— неотслеживаемые (untracked)
+
+Отслеживаемые файлы — это те файлы, которые были в последнем снимке состояния проекта.
+Отслеживаемые файлы могут быть
+— неизменёнными (unmodified)
+— изменёнными (modified)
+— подготовленными к коммиту (staged)
+
+Посмотреть статус файлов — git status / git status -s (--short)
+
+Как только вы отредактируете файлы, Git будет рассматривать их как изменённые, так как вы изменили их с момента последнего коммита.
+Вы индексируете эти изменения(git add filename), затем фиксируете все проиндексированные изменения(git commit -m 'Commit message'), а затем цикл повторяется. В коммит попадают только индексированные(staged) файлы(причем в том состоянии в котором они были до вызова git add! если после выполнения git add нужно сделать еще изменения, тогда придется опять делать git add для этого файла чтобы новые изменения попали в следующий коммит), даже если были изменены и другие файлы, которые не были индексированы с помощью git add.
+
+При добавлении нового файла в проект нужно сначала проиндексировать его с помощью команды git add, затем выполнить git commit.
+Добавить все файлы в папке
+git add .
+или
+git add --all
+https://stackoverflow.com/questions/572549/difference-between-git-add-a-and-git-add
+
+4) Игнорирование файлов
+Обычно при сборке проектов в папке появляются файлы(например *.exe), которые не входят в код проекта.
+Чтобы git игнорировал эти файлы и не показывал их в статусе как untracked нужно в папке с проектом создать файл .gitignore.
+Готовые .gitignore для разных языков можно посмотреть тут https://github.com/github/gitignore
+
+5) Операции отмены
+
+5.1) Добавить изменения в последний коммит
+git commit -m 'Initial commit'
+git add forgotten_file
+git commit --amend
+
+В итоге получится единый коммит — второй коммит заменит результаты первого.
+
+5.2) Отмена индексации файла(unstaging)
+git reset HEAD CONTRIBUTING.md
+или
+git restore --staged CONTRIBUTING.md
+
+5.3) Отмена изменений в файле(откат к состоянию предыдущего коммита)
+git checkout -- CONTRIBUTING.md
+или
+git restore CONTRIBUTING.md
+
+Для всех файлов
+git checkout -- .
+или
+git restore .
+
+6) Работа с удалёнными репозиториями
+
+Просмотр удалённых репозиториев
+git remote
+git remote -v
+
+Добавление удалённых репозиториев
+git remote add <shortname> <url>
+
+Получение изменений из удалённого репозитория
+git fetch [remote-name]
+! Команда git fetch забирает данные в ваш локальный репозиторий, но не сливает их с какими-либо вашими наработками и не модифицирует то, над чем вы работаете в данный момент. Вам необходимо вручную слить эти данные с вашими, когда вы будете готовы.
+
+Отправка изменений в удаленный репозиторий
+git push <remote-name> <branch-name>
+Например,
+git push origin master
+
+Просмотр удаленного репозитория
+git remote show <remote>
+Например,
+git remote show origin
+
+Удаление и переименование удалённых репозиториев
+git remote rename <old-name> <new-name>
+git remote remove <remote>
+
+7) Работа с тегами
+TO DO
+
+8) Псевдонимы в Git
+TO DO
+
+9) Работа с ветками (branches)
+
+Создание ветки (на основе текущей ветки)
+git branch <branch-name>
+
+Переключение веток
+(ошибка если есть незакомиченые изменения в текущей ветке)
+git checkout <branch-name>
+
+Создать ветку и переключиться на неё
+git checkout -b <new-branch>
+
+Слияние веток
+git checkout master
+git merge hotfix
+(переключились на master и слили с веткой hotfix)
+
+Разрешение конфликтов
+git merge <branch>
+(editing files with conflict)
+git add <files>
+git commit
+
+Просмотр списка веток
+git branch
+(текущая ветка будет помечена символом *)
+git branch --all
+(показывает и удаленные ветки)
+
+git branch -v
+(показывает ветки и последние коммиты в них)
+
+Список слитых (в текущую ветку) веток
+git branch --merged
+
+Список неслитых (в текущую ветку) веток
+git branch --no-merged
+
+Удаление ветки (после слияния)
+git branch -d <branch-name>
+
+Удаление ветки (принудительное)
+git branch -D <branch-name>
+
+Переименование ветки
+git branch --move <old-name> <new-name>
+Чтобы все остальные увидели исправленную ветку в удалённом репозитории, отправьте её туда
+git push --set-upstream origin <new-name>
+и удалите ветку с удаленного сервера
+git push origin --delete bad-branch-name
+
+Изменение имени главной ветки
+git branch --move master main
+git push --set-upstream origin main
+git push origin --delete master
