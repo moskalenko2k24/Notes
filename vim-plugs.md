@@ -4,7 +4,14 @@
 
 Здесь я описываю только то, что мне самому было нужно и то что мне зашло. <br>
 Как менеджер плагинов я использую [vim-plug](https://github.com/junegunn/vim-plug).
-Плагины добавляю в .vimrc вот так:
+
+Менеджер плагинов ставится командой (из ссылки выше)
+```bash
+curl -fLo ~/.vim/autoload/plug.vim --create-dirs \
+    https://raw.githubusercontent.com/junegunn/vim-plug/master/plug.vim
+```
+
+Плагины добавляются в .vimrc вот так:
 
 ```vim
 call plug#begin('~/.vim/plugged')
