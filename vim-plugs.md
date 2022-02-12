@@ -116,6 +116,11 @@ Plug 'jiangmiao/auto-pairs'
 а плагин понимает что нужно до текста вставить `(`, а после текста `)`.
 
 Для изменения тега используется команда `cst<tag>`.
+Для удаления скобок команда `ds(`.
+Также для добавления круглых скобок используется `Sb`.
+
+[Тут](https://superuser.com/questions/875095/adding-parenthesis-around-highlighted-text-in-vim/875160)
+еще больше про этот плагин.
 
 ```vim
 Plug 'tpope/vim-surround'
