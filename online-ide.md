@@ -23,7 +23,9 @@
 
 ## 3. CS50 Sandbox
 
-[ссылка](https://sandbox.cs50.io)
+[CS50 IDE](https://ide.cs50.io/) <br>
+[CS50 Docs](https://cs50.readthedocs.io/) <br>
+[CS50 Sandbox](https://sandbox.cs50.io)
 
 Виртуалка с Ubuntu, редактором кода и терминалом.
 
