@@ -126,6 +126,20 @@ Plug 'jiangmiao/auto-pairs'
 Plug 'tpope/vim-surround'
 ```
 
+### Вставка с нужным отступом
+
+[ссылка](https://github.com/sickill/vim-pasta)
+
+Плагин переопределяет стандартные 
+команды `p` и `P` таким образом,
+чтобы при вставке куска кода,
+код автоматически выравнивался
+и отступ соответствовал уровню вложенности.
+
+```vim
+Plug 'sickill/vim-pasta'
+```
+
 ### Комментирование кода
 
 [ссылка](https://github.com/tyru/caw.vim)
@@ -233,6 +247,19 @@ let g:VM_maps["Add Cursor Down"] = '<C-Down>'
 ```vim
 Plug 'iamcco/markdown-preview.nvim', { 'do': 'cd app && yarn install' }
 let g:mkdp_page_title = '${name}.md'
+```
+
+## VIM Table Mode
+
+[ссылка](https://github.com/dhruvasagar/vim-table-mode)
+
+Плагин позволяет автоматически выравнивать таблицы в Markdown
+файле при наборе. Для того чтобы плагин начал работу,
+необходимо набрать `\tm` (или другой символ вместо `\`
+если Leader-key переопределен).
+
+```vim
+Plug 'dhruvasagar/vim-table-mode'
 ```
 
 ## LaTeX
