@@ -12,13 +12,31 @@
 
 [DOM Standard](https://dom.spec.whatwg.org) (specification)
 
-### From jQuery to vanilla JS
+### jQuery -> vanilla JS
 
 [You Might Not Need jQuery](https://youmightnotneedjquery.com)
 
 [Moving from jQuery to vanilla JavaScript](https://tobiasahlin.com/blog/move-from-jquery-to-vanilla-javascript/)
 
+### jQuery
+
+[jQuery](https://jquery.com)
+
+[Learn jQuery](https://learn.jquery.com)
+
+[jQuery in Action](https://www.manning.com/books/jquery-in-action-third-edition)
+
+[Справочник по jQuery](https://page2page.lohmach.info/index.php5/%D0%97%D0%B0%D0%B3%D0%BB%D0%B0%D0%B2%D0%BD%D0%B0%D1%8F_%D1%81%D1%82%D1%80%D0%B0%D0%BD%D0%B8%D1%86%D0%B0.html)
+
+[51+ Best of jQuery Tutorials and Examples](https://www.jotform.com/blog/51-best-of-jquery-tutorials-and-examples/)
+
+[Хороший мануал по jQuery (Stack Overflow на русском)](https://ru.stackoverflow.com/questions/17203/%D0%A5%D0%BE%D1%80%D0%BE%D1%88%D0%B8%D0%B9-%D0%BC%D0%B0%D0%BD%D1%83%D0%B0%D0%BB-%D0%BF%D0%BE-jquery-%D0%B4%D0%BB%D1%8F-%D0%BD%D1%83%D0%B1%D0%BE%D0%B2-%D0%B8%D1%81%D1%82%D0%B5%D1%81%D1%81%D0%BD%D0%B0)
+
 ## React.js
+
+[Dan Abramov blog](https://overreacted.io)
+
+[A Complete Guide to useEffect](https://overreacted.io/a-complete-guide-to-useeffect)
 
 ### Redux
 
