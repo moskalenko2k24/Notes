@@ -17,4 +17,19 @@ about how English is spoken by real people and in context._
 На этом сайте можно ввести слово и послушать как оно звучит
 в речи носителя (в разных YouTube видео).
 
+## Браузерные расширения
 
+Расширения позволяют переводить незнакомое слово сразу после выделения.
+
+В настройках расширения надо указать
+1) Родной язык
+2) Изначально при выделении слова / фразы, расширения показывают иконку
+(после нажатия на которую появляется перевод), (почти?) во всех расширениях
+можно настроить перевод так, чтоб он появлялся сразу после выделения.
+
+Расширение для Chrome
+[Google Переводчик](https://chrome.google.com/webstore/detail/google-translate/aapbdbdomjkkjkaonfhkkikfgjllcleb)
+
+Расширения для всех браузеров <br>
+[Simple Translate](https://simple-translate.sienori.com/) <br>
+[Reverso Context](https://www.reverso.net/download-browser-extension)
