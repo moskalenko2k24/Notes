@@ -34,9 +34,11 @@
 
 ## React.js
 
-[Dan Abramov blog](https://overreacted.io)
+[React Docs](https://reactjs.org/docs/getting-started.html)
 
-[A Complete Guide to useEffect](https://overreacted.io/a-complete-guide-to-useeffect)
+[React Docs Beta](https://beta.reactjs.org/) (все примеры переписаны на хуки)
+
+[Dan Abramov blog](https://overreacted.io)
 
 ### Redux
 
