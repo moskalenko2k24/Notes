@@ -46,7 +46,14 @@
 
 Песочница для JavaScript(FrontEnd) приложений.
 
-## 6. Shadertoy
+## 6. CodeSandbox
+[ссылка](https://codesandbox.io)
+
+Песочница для JavaScript / Node.js приложений
+с возможностью установки npm-модулей. <br> Есть много шаблонов проектов
+для популярных фреймворков (React / Angular / Vue / Svelte / Ember).
+
+## 7. Shadertoy
 
 [ссылка](https://www.shadertoy.com/)
 
