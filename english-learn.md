@@ -17,6 +17,16 @@ about how English is spoken by real people and in context._
 На этом сайте можно ввести слово и послушать как оно звучит
 в речи носителя (в разных YouTube видео).
 
+## Lyrics Training
+
+[ссылка](https://lyricstraining.com)
+
+_LyricsTraining is the new way to learn English and other
+languages through music and the lyrics of your favourite songs_
+
+Сайт, на котором можно потренировать Listening(восприятие речи на слух). <br>
+Дается видео с песней, внизу показываются слова, часть слов нужно ввести самому.
+
 ## Браузерные расширения
 
 Расширения позволяют переводить незнакомое слово сразу после выделения.
