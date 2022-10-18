@@ -17,7 +17,7 @@ the longest substring without repeating characters.
 >s consists of English letters, digits, symbols and spaces.
 
 Мой код на JavaScript
-```js
+```javascript
 
 /**
  * @param {string} s
