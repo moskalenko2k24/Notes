@@ -41,18 +41,28 @@ https://learnopengl.com <br>
 https://habr.com/ru/post/310790 <br>
 Серия статей на Хабре, переводы туториалов с Learn OpenGL.
 
-### 2.3 WebGL Fundamentals
+### 2.3 Уроки по OpenGL 3
+
+https://code.google.com/archive/p/gl33lessons
+
+### 2.4 OpenGL Tutorial
+
+http://www.opengl-tutorial.org
+
+### 2.5 WebGL Fundamentals
 
 https://webglfundamentals.org <br>
 Туторы про WebGL - OpenGL внутри браузера.
 Огромный плюс WebGL в том, что браузеры везде одинаковые,
 а значит не нужно думать о том как скомпилировать / собрать приложение, в отличии от C / C++(где на разных ОС подключение нужных библиотек делается по разному). WebGL удобен для изучения самого OpenGL, так как API там практически 1 в 1. На сайте есть переводы на другие языки, в том числе на русский.
 
-### 2.4 WebGL2 Fundamentals
+### 2.6 WebGL2 Fundamentals
 
 https://webgl2fundamentals.org <br>
 Туторы по WebGL 2. WebGL 2 имеет чуть более сложный API, но это как раз ближе к обычному OpenGL.
 
-### 2.5 OpenGL Tutorial
+### 2.7 The Book of Shaders
 
-http://www.opengl-tutorial.org
+https://thebookofshaders.com <br>
+Онлайн-книга про шейдеры и GLSL, используется WebGL
+Есть перевод на русский.
