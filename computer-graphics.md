@@ -79,3 +79,8 @@ https://webgl2fundamentals.org <br>
 https://thebookofshaders.com <br>
 Онлайн-книга про шейдеры и GLSL, используется WebGL
 Есть перевод на русский.
+
+### 2.8 lisyarus / graphics-course-slides
+
+https://github.com/lisyarus/graphics-course-slides <br>
+Курс про OpenGL на гитхабе, на русском, с теорией и задачами для практики.
