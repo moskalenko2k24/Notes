@@ -14,16 +14,29 @@ https://habr.com/ru/post/248153/ <br>
 Реализация всего с 0. От функций setPixel / getPixel, до рисования отрезков, треугольников, а потом и 3D-объектов...
 
 ### 1.2 Tiny renderer or how OpenGL works: software rendering in 500 lines of code
+
 (то что выше, но на английском) <br>
 https://github.com/ssloy/tinyrenderer/wiki
 
-### 1.3 Расчёт матриц камеры и проекции
+### 1.3 256 строчек голого C++: пишем трассировщик лучей с нуля за несколько часов
+
+https://habr.com/ru/post/436790/ <br>
+Статья того же автора, опять же про то как оно работает внутри.
+
+### 1.4 Understandable RayTracing in 256 lines of bare C++
+
+(то что выше, но на английском) <br>
+https://github.com/ssloy/tinyraytracer <br>
+
+### 1.5 Расчёт матриц камеры и проекции
+
 https://www.youtube.com/watch?v=7tLavP0SIe4 <br>
 Первая лекция курса от Computer Science Center.
 Вывод формул для матрицы камеры и матрицы проекции.
 
 Ссылка на весь курс "Трёхмерная компьютерная графика (осень 2017)" <br>
-https://www.youtube.com/playlist?list=PLlb7e2G7aSpRhAzyVXo7HYyS3QLxvNaa6
+https://www.youtube.com/playlist?list=PLlb7e2G7aSpRhAzyVXo7HYyS3QLxvNaa6 <br>
+Курс про DirectX, но и про матчасть в том числе.
 
 ## 2 OpenGL
 
@@ -38,7 +51,7 @@ https://learnopengl.com <br>
 
 ### 2.2 Learn OpenGL (перевод)
 
-https://habr.com/ru/post/310790 <br>
+https://habr.com/ru/post/310790/ <br>
 Серия статей на Хабре, переводы туториалов с Learn OpenGL.
 
 ### 2.3 Уроки по OpenGL 3
