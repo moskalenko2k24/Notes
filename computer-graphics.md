@@ -38,6 +38,18 @@ https://www.youtube.com/watch?v=7tLavP0SIe4 <br>
 https://www.youtube.com/playlist?list=PLlb7e2G7aSpRhAzyVXo7HYyS3QLxvNaa6 <br>
 Курс про DirectX, но и про матчасть в том числе.
 
+### 1.6 Виталий Галинский. Компьютерная графика 2018
+
+Старый курс, 2011 год <br>
+https://www.lektorium.tv/course/22834 <br>
+https://www.youtube.com/playlist?list=PL-_cKNuVAYAX-pXo6-CV21Z6e1_i_PTUu
+
+Новый курс, 2018 год <br>
+https://www.lektorium.tv/node/33155 <br>
+https://www.youtube.com/playlist?list=PL-_cKNuVAYAVK2E--20nqggd57jcipCk6 <br>
+
+Рассматриваются общие принципы и задачи компьютерной графики, алгоритмы построения и визуализации плоских и объемных изображений, сплайны, алгоритмы удаления невидимых поверхностей, работа с цветом, полутонирование, алгоритмы закраски, построение реалистичных изображений.
+
 ## 2 OpenGL
 
 Материалы по современному OpenGL с шейдерами.
@@ -62,25 +74,31 @@ https://code.google.com/archive/p/gl33lessons
 
 http://www.opengl-tutorial.org
 
-### 2.5 WebGL Fundamentals
+### 2.5 lisyarus / graphics-course-slides
+
+https://github.com/lisyarus/graphics-course-slides <br>
+Курс про OpenGL на гитхабе, на русском, с теорией и задачами для практики.
+
+### 2.6 WebGL Fundamentals
 
 https://webglfundamentals.org <br>
 Туторы про WebGL - OpenGL внутри браузера.
 Огромный плюс WebGL в том, что браузеры везде одинаковые,
 а значит не нужно думать о том как скомпилировать / собрать приложение, в отличии от C / C++(где на разных ОС подключение нужных библиотек делается по разному). WebGL удобен для изучения самого OpenGL, так как API там практически 1 в 1. На сайте есть переводы на другие языки, в том числе на русский.
 
-### 2.6 WebGL2 Fundamentals
+### 2.7 WebGL2 Fundamentals
 
 https://webgl2fundamentals.org <br>
 Туторы по WebGL 2. WebGL 2 имеет чуть более сложный API, но это как раз ближе к обычному OpenGL.
 
-### 2.7 The Book of Shaders
+### 2.8 The Book of Shaders
 
 https://thebookofshaders.com <br>
 Онлайн-книга про шейдеры и GLSL, используется WebGL
 Есть перевод на русский.
 
-### 2.8 lisyarus / graphics-course-slides
+### 2.9 Примеры кода на WebGL (из книги)
 
-https://github.com/lisyarus/graphics-course-slides <br>
-Курс про OpenGL на гитхабе, на русском, с теорией и задачами для практики.
+https://vk.com/wall-85029013_531 <br>
+Примеры из книги "WebGL Programming Guide",
+выложенные в песочницу JSFiddle.
