@@ -28,15 +28,15 @@ https://habr.com/ru/post/436790/ <br>
 (то что выше, но на английском) <br>
 https://github.com/ssloy/tinyraytracer <br>
 
-### 1.5 Расчёт матриц камеры и проекции
+### 1.5 Трёхмерная компьютерная графика (осень 2017)
 
-https://www.youtube.com/watch?v=7tLavP0SIe4 <br>
-Первая лекция курса от Computer Science Center.
-Вывод формул для матрицы камеры и матрицы проекции.
-
-Ссылка на весь курс "Трёхмерная компьютерная графика (осень 2017)" <br>
+Курс от Computer Science Center. <br>
 https://www.youtube.com/playlist?list=PLlb7e2G7aSpRhAzyVXo7HYyS3QLxvNaa6 <br>
 Курс про DirectX, но и про матчасть в том числе.
+
+https://www.youtube.com/watch?v=7tLavP0SIe4 <br>
+Первая лекция курса от Computer Science Center. <br>
+Вывод формул для матрицы камеры и матрицы проекции.
 
 ### 1.6 Виталий Галинский. Компьютерная графика 2018
 
