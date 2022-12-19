@@ -50,6 +50,49 @@ https://www.youtube.com/playlist?list=PL-_cKNuVAYAVK2E--20nqggd57jcipCk6 <br>
 
 Рассматриваются общие принципы и задачи компьютерной графики, алгоритмы построения и визуализации плоских и объемных изображений, сплайны, алгоритмы удаления невидимых поверхностей, работа с цветом, полутонирование, алгоритмы закраски, построение реалистичных изображений.
 
+### 1.7 Основы линейной алгебры для 3D приложений
+
+Внутренняя лекция UNIGINE <br>
+https://www.youtube.com/watch?v=FSTxFlgmb9Q
+
+### 1.8 Ray Tracing in One Weekend Series
+
+https://raytracing.github.io <br>
+https://github.com/RayTracing/raytracing.github.io
+
+### 1.9 Rasterization in One Weekend
+
+https://tayfunkayhan.wordpress.com/2018/11/24/rasterization-in-one-weekend/
+
+### 1.10 Shading a Triangle in Software
+
+https://habr.com/ru/post/526340/ (перевод) <br>
+https://austinmorlan.com/posts/drawing_a_triangle/
+
+### 1.11 Computer Graphics and Imaging
+
+Berkley cs184/284a <br>
+https://cs184.eecs.berkeley.edu/sp22 <br>
+https://cs184.eecs.berkeley.edu/sp19 <br>
+
+### 1.12 Rasterization: a Practical Implementation
+
+https://www.scratchapixel.com/lessons/3d-basic-rendering/rasterization-practical-implementation
+
+### 1.13 Introduction to Ray Tracing
+
+https://www.scratchapixel.com/lessons/3d-basic-rendering/introduction-to-ray-tracing
+
+### 1.14 CS 1230
+
+https://cs1230.graphics/
+
+### 1.15 Introduction to Computer Graphics
+
+Legacy OpenGL + WebGL + Three.js <br>
+
+https://math.hws.edu/graphicsbook/
+
 ## 2 OpenGL
 
 Материалы по современному OpenGL с шейдерами.
