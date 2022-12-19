@@ -3,6 +3,7 @@
 ## Браузеры
 
 [Vieb](https://vieb.dev) <br>
+[Vimb](https://fanglingsu.github.io/vimb/) <br>
 [qutebrowser](https://github.com/qutebrowser/qutebrowser)
 
 ## Браузерные расширения
