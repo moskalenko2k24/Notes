@@ -93,6 +93,11 @@ Legacy OpenGL + WebGL + Three.js <br>
 
 https://math.hws.edu/graphicsbook/
 
+### 1.16 Code-It-Yourself! 3D Graphics Engine
+
+https://www.youtube.com/watch?v=ih20l3pJoeU
+[Part1](https://www.youtube.com/watch?v=ih20l3pJoeU) [Part2](https://www.youtube.com/watch?v=XgMWc6LumG4) [Part3](https://www.youtube.com/watch?v=HXSuNxpCzdM)
+
 ## 2 OpenGL
 
 Материалы по современному OpenGL с шейдерами.
