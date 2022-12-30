@@ -95,8 +95,10 @@ https://math.hws.edu/graphicsbook/
 
 ### 1.16 Code-It-Yourself! 3D Graphics Engine
 
-https://www.youtube.com/watch?v=ih20l3pJoeU
-[Part1](https://www.youtube.com/watch?v=ih20l3pJoeU) [Part2](https://www.youtube.com/watch?v=XgMWc6LumG4) [Part3](https://www.youtube.com/watch?v=HXSuNxpCzdM)
+[Part 1. Triangles & Projection](https://www.youtube.com/watch?v=ih20l3pJoeU) <br>
+[Part 2. Normals, Culling, Lighting & Object Files](https://www.youtube.com/watch?v=XgMWc6LumG4) <br>
+[Part 3. Cameras & Clipping](https://www.youtube.com/watch?v=HXSuNxpCzdM) <br>
+[Part 4. Texturing & Depth Buffers](https://www.youtube.com/watch?v=nBzCS-Y0FcY)
 
 ## 2 OpenGL
 
