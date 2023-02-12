@@ -1,11 +1,14 @@
 # NeoVim
 
-## Чужие конфиги, которые мне зашли
+## Конфиги
+
+С любых конфигов есть что вытянуть, мне вот эти понравились.
 
 Там хватает полезного, по кускам беру оттуда многое.
 
 [sarmong](https://github.com/sarmong/dotfiles/tree/master/dotconfig/nvim)
 [martinsione](https://github.com/martinsione/dotfiles/blob/master/src/.config/nvim/init.lua)
+[kickstart.nvim](https://github.com/nvim-lua/kickstart.nvim)
 
 ## Готовые NeoVim-сборки
 
@@ -13,15 +16,36 @@
 
 [NvChad](https://github.com/NvChad/NvChad)
 [LazyVim](https://github.com/LazyVim/LazyVim)
-[LunarVim](https://github.com/LunarVim/LunarVim)
+
 [DoomNvim](https://github.com/doom-neovim/doom-nvim)
 [CosmicNvim](https://github.com/CosmicNvim/CosmicNvim)
 
+[LunarVim](https://github.com/LunarVim/LunarVim)
+[nvim-basic-ide](https://github.com/LunarVim/nvim-basic-ide)
+
+## Lua и NeoVim
+
+[Learn Lua in 15 Minutes](https://tylerneylon.com/a/learn-lua/)
+
+[Getting started using Lua in Neovim](https://github.com/nanotee/nvim-lua-guide)
+
+[Начало работы с Lua в Neovim (перевод)](https://github.com/kuator/nvim-lua-guide-ru)
+
+[Basic Lua based Neovim configuration (видео)](https://www.youtube.com/watch?v=ppMX4LHIuy4)
+
+[Everything you need to know to configure neovim using lua](https://vonheikemen.github.io/devlog/tools/configuring-neovim-using-lua/)
+
 ## Плагины must-have
+
+[Awesome Neovim](https://github.com/rockerBOO/awesome-neovim) -- каталог плагинов
 
 [packer.nvim](https://github.com/wbthomason/packer.nvim) -- менеджер плагинов
 
 [telescope.nvim](https://github.com/nvim-telescope/telescope.nvim) -- навигация по файлам (как в [fzf.vim](https://github.com/junegunn/fzf.vim))
+
+[neo-tree.nvim](https://github.com/nvim-neo-tree/neo-tree.nvim) -- дерево файлов
+
+[nvim-tree.lua](https://github.com/nvim-tree/nvim-tree.lua) -- альтернатива плагину выше
 
 [lualine.nvim](https://github.com/nvim-lualine/lualine.nvim/) -- настраиваемая и красивая статусная строка
 
