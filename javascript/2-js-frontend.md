@@ -12,6 +12,8 @@
 
 [DOM Standard](https://dom.spec.whatwg.org) (specification)
 
+[Making a SPA in ye good olde JS](https://dev.to/rishavs/making-a-single-page-app-in-ye-good-olde-js-es6-3eng)
+
 ### jQuery -> vanilla JS
 
 [You Might Not Need jQuery](https://youmightnotneedjquery.com)
@@ -34,9 +36,9 @@
 
 ## React.js
 
-[React Docs](https://reactjs.org/docs/getting-started.html)
+[React Docs](https://react.dev/learn) (новый сайт, все примеры на хуках)
 
-[React Docs Beta](https://beta.reactjs.org/) (все примеры переписаны на хуки)
+[React Docs Legacy](https://reactjs.org/docs/getting-started.html) (старый сайт)
 
 [Dan Abramov blog](https://overreacted.io)
 
@@ -49,6 +51,8 @@
 [Redux Toolkit](https://redux-toolkit.js.org)
 
 #### Видеокурсы
+
+[React For Beginners (ukrainian)](https://github.com/Drag13/react-learning-course-short)
 
 [ReactJS - Путь Самурая 1.0](https://www.youtube.com/playlist?list=PLcvhF2Wqh7DNVy1OCUpG3i5lyxyBWhGZ8)
 
@@ -66,4 +70,12 @@
 
 [Using MobX for large-scale enterprise state management](https://blog.logrocket.com/using-mobx-for-large-scale-enterprise-state-management/)
 
-[Manage Complex State in React Apps with MobX](https://egghead.io/courses/manage-complex-state-in-react-apps-with-mobx)
+[Manage Complex State in React Apps with MobX (видеокурс)](https://egghead.io/courses/manage-complex-state-in-react-apps-with-mobx)
+
+[MobX-Cookbook(на русском)](https://mobx-cookbook.github.io)
+
+[Назим Гафаров — Воркшоп: Знакомство с MobX (видео)](https://www.youtube.com/watch?v=gXy1H3yZtSA)
+
+[Mobx — неприятные моменты(хабр)](https://habr.com/ru/articles/570236/)
+
+[Почему мы выбрали MobX, а не Redux(хабр)](https://habr.com/ru/companies/vk/articles/522312/)
