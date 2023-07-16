@@ -56,7 +56,7 @@ Sublime Text с минимальными настройками (или даже
 Кроссплатформенный редактор, похожий на Sublime Text,
 но в отличии от него полностью OpenSource, написан на Object Pascal(Lazarus).
 Кстати говоря API для плагинов, использует Python(также как Sublime Text).
-LSP ставится как плагин.
+Полезные плагины, включая LSP, можно посмотреть [здесь](https://wiki.freepascal.org/CudaText_plugins).
 
 ### Zed
 
