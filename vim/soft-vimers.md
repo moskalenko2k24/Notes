@@ -18,7 +18,7 @@
 Немного глючная, не поддерживает ввод команд не латинскими буквами. <br>
 Зато вроде бы где-то был пул-реквест, который исправляет этот недостаток.
 Update. Уже пофикшено, но надо ручками мапить все нужные команды.
-У меня в dotfiles есть конфиг, в .config/zathura/zathurarc
+У меня в dotfiles есть [конфиг](https://github.com/moskalenco-a/dotfiles/blob/main/.config/zathura/zathurarc).
 
 [Sioyek](https://github.com/ahrm/sioyek)
 
