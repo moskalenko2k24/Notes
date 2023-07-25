@@ -37,6 +37,14 @@ NeoVim-плагин, сокращает время написания кода.
 стандартных сниппетов, чтоб не создавать велосипед заново.
 
 
+## template.nvim
+
+[ссылка](https://github.com/nvimdev/template.nvim)
+
+Автоматическая вставка, заранее определенных, шаблонов.
+По-моему это что-то похожее на сниппеты.
+
+
 ## lsp_signature.nvim
 
 [ссылка](https://github.com/ray-x/lsp_signature.nvim)
@@ -107,6 +115,13 @@ NeoVim-плагин, с помощью которого можно на один
 а второго конечно же нет из коробки.
 
 
+## vim-browser-search
+
+[ссылка](https://github.com/voldikss/vim-browser-search)
+
+Плагин похожий на предыдущий. Позволяет быстро
+найти выделенный текст, используя разные поисковики.
+
 ## venn.nvim
 
 [ссылка](https://github.com/jbyuki/venn.nvim)
@@ -158,6 +173,13 @@ _barbar.nvim is a tabline plugin with re-orderable, auto-sizing, clickable tabs,
 В общем красивые и удобные вкладки.
 
 
+## bufferline.nvim
+
+[ссылка](https://github.com/akinsho/bufferline.nvim)
+
+Из той же серии.
+
+
 ## lspsaga.nvim
 
 [ссылка](https://github.com/nvimdev/lspsaga.nvim) <br>
@@ -199,3 +221,99 @@ _Android development plugin for vim_
 _Use treesitter to autoclose and autorename html tag_
 
 
+## vim-unimpaired
+
+[ссылка](https://github.com/tpope/vim-unimpaired)
+
+Плагин, который добавляет прикольные маппинги, в стиле `[x` и `]x`.
+Возможно стоит почитать подробно и взять себе какие-то идеи оттуда.
+
+
+## codeium.vim
+
+[ссылка](https://github.com/Exafunction/codeium.vim)
+
+_Free, ultrafast Copilot alternative for Vim and Neovim_
+
+Автодополнение кода с помощью ИИ, платить не надо в отличии от Copilot.
+
+
+## lspkind.nvim
+
+[ссылка](https://github.com/onsails/lspkind.nvim)
+
+Добавляет прикольные иконки в меню автодополнения, как в VS Code.
+
+
+## git.nvim
+
+[ссылка](https://github.com/dinhhuy258/git.nvim)
+
+Чёто для работы с гитом, аналог [vim-fugitive](https://github.com/tpope/vim-fugitive) для NeoVim.
+
+
+## typescript-tools.nvim
+
+[ссылка](https://github.com/pmizio/typescript-tools.nvim)
+
+Альтернатива LSP для JS / TS. Пишут, что более быстро работает.
+
+
+## vim-searchindex
+
+[ссылка](https://github.com/google/vim-searchindex)
+
+Плагин показывает номер найденного вхождения и количество, например "3/5".
+В (Neo)Vim уже есть такая возможность из коробки, но пока-что не нахожу,
+каким образом сделать, чтобы показывало также как с этим плагином.
+Не где-то справа, а слева перед `/findtext`.
+
+
+## vimwiki
+
+[ссылка](https://github.com/vimwiki/vimwiki)
+
+База знаний в Vim, формат пока не понятен, если б в Markdown, было б удобно.
+
+
+## VSCode Neovim
+
+[ссылка](https://github.com/vscode-neovim/vscode-neovim)
+
+Плагин для VS Code, чтобы использовать внутри него привычные для себя маппинги.
+
+
+## Firenvim
+
+[ссылка](https://github.com/glacambre/firenvim)
+
+NeoVim внутри браузера, для редактирования текста.
+
+
+## omnisharp-extended-lsp.nvim
+
+[ссылка](https://github.com/Hoffs/omnisharp-extended-lsp.nvim)
+
+_Extended textDocument/definition handler that handles assembly/decompilation loading for $metadata$ documents._
+
+
+## permut.vim
+
+[ссылка](https://github.com/jlemetay/permut)
+
+Перестановка колонок в таблицах, csv.
+По умолчанию разделитель |, но его можно менять.
+
+
+## tabular
+
+[ссылка](https://github.com/godlygeek/tabular)
+
+Выравнивание по символу, лучше почитать README.
+И посмотреть видео [здесь](http://vimcasts.org/episodes/aligning-text-with-tabular-vim/)
+
+## nvim-luadev
+
+[ссылка](https://github.com/bfredl/nvim-luadev)
+
+_REPL / debug console for nvim lua plugins_

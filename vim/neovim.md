@@ -28,8 +28,11 @@
 [Learn Lua in 15 Minutes](https://tylerneylon.com/a/learn-lua/) \
 [Getting started using Lua in Neovim](https://github.com/nanotee/nvim-lua-guide) \
 [Начало работы с Lua в Neovim (перевод)](https://github.com/kuator/nvim-lua-guide-ru) \
+[Как я переписывал vim конфиг в init.lua (хабр)](https://habr.com/ru/articles/586808/) \
 [Basic Lua based Neovim configuration (видео)](https://www.youtube.com/watch?v=ppMX4LHIuy4) \
-[Everything you need to know to configure neovim using lua](https://vonheikemen.github.io/devlog/tools/configuring-neovim-using-lua/)
+[Everything you need to know to configure neovim using lua](https://vonheikemen.github.io/devlog/tools/configuring-neovim-using-lua/) \
+[chris@machine(YouTube-канал)](https://www.youtube.com/c/ChrisAtMachine/videos)
+
 
 ## Плагины must-have
 
