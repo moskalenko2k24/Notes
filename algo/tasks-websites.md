@@ -1,7 +1,8 @@
-# Сайты с алгоритмическими задачами
+# Сайты с задачами
 
-Задачи для подготовки к собеседованиям,или же для любителей
-спортивного(олимпиадного) программирования.
+Сайты с алгоритмическими задачами.
+Задачи для подготовки к собеседованиям(вопросы по алгоритмам),
+или же для любителей спортивного(олимпиадного) программирования.
 
 [LeetCode](https://leetcode.com) \
 [LeetCode Patterns](https://seanprashad.com/leetcode-patterns/) \
@@ -11,14 +12,26 @@
 [CodeForces](https://codeforces.com) \
 [HackerRank](https://www.hackerrank.com) \
 [Sphere Online Judge](https://www.spoj.com) \
-[Тимус](https://acm.timus.ru) \
 [Eolymp](https://www.eolymp.com) \
 [Алготестер](https://algotester.com/uk) \
-[Информатикс](https://informatics.msk.ru) \
-[Школа программиста](https://acmp.ru) \
 [CS Academy](https://csacademy.com)
 
-## Задачки для практики основ
+### Российские сайты
+
+Выделяю их отдельно, они у нас без VPN не открываются \
+(за исключением CodeForces, который переехал)
+
+[Тимус](https://acm.timus.ru) \
+[Информатикс](https://informatics.msk.ru) \
+[Школа программиста](https://acmp.ru)
+
+## Задачи для практики основ
+
+На этих сайтах задачи больше учебные,
+они простые, но это то что нужно, когда
+только начинаешь изучать программирование.
+Хотя задачи по основам есть и на Информатикс, и на "Школе программиста"
+(там есть и очень простые задачи, и сложные)
 
 [Exercism](https://exercism.org) \
 [CodeChick](https://codechick.io) \
