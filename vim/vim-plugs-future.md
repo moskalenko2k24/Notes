@@ -19,7 +19,11 @@ https://github.com/asanakoy/vimrc/blob/master/vimrcs/basic.vim \
 https://github.com/lyokha/dotfiles/blob/master/.config/kitty/kitty.conf \
 https://github.com/ReKreker/NvimDotfiles/blob/master/lua/plugin-config.lua \
 https://github.com/Iamnotagenius/dotfiles/blob/main/.config/nvim/ftplugin/java.lua \
-https://github.com/Vftdan/dotfiles/blob/6eaf4ed4188116c3a8e897178fcfe5452a9244bf/editor/nvim/init.vim#L222
+https://github.com/Vftdan/dotfiles/blob/6eaf4ed4188116c3a8e897178fcfe5452a9244bf/editor/nvim/init.vim#L222 \
+https://github.com/kylpo/dev-playbook/blob/master/tools/Vim.md \
+https://opensource.com/article/21/12/vanilla-vim-config \
+https://opensource.com/article/22/3/vim-features-productivity \
+https://opensource.com/article/19/1/vim-plugins-developers
 
 
 ## Comment.nvim
