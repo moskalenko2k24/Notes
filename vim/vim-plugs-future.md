@@ -6,6 +6,22 @@
 и не только для Vim / NeoVim, но и вообще для разработки: tmux, bash, терминалы
 с их настройками и вообще всё то, что я отложил на потом.
 
+## Чужие конфиги
+
+Просто ссылки на конфиги, которые мне показались интересными.
+Т.е я планирую(возможно) что-то оттуда взять для себя. Конфиги
+самые разные: Vim, NeoVim, терминалы, Tmux.
+
+[The Ultimate vimrc](https://github.com/amix/vimrc) \
+https://github.com/solopasha/dotfiles \
+https://github.com/tucnak/config/blob/master/.vimrc \
+https://github.com/asanakoy/vimrc/blob/master/vimrcs/basic.vim \
+https://github.com/lyokha/dotfiles/blob/master/.config/kitty/kitty.conf \
+https://github.com/ReKreker/NvimDotfiles/blob/master/lua/plugin-config.lua \
+https://github.com/Iamnotagenius/dotfiles/blob/main/.config/nvim/ftplugin/java.lua \
+https://github.com/Vftdan/dotfiles/blob/6eaf4ed4188116c3a8e897178fcfe5452a9244bf/editor/nvim/init.vim#L222
+
+
 ## Comment.nvim
 
 [ссылка](https://github.com/numToStr/Comment.nvim)
@@ -54,6 +70,14 @@ _Show function signature when you type_
 NeoVim-плагин, позволяет с помощью LSP подсказывать,
 какой параметр функции сейчас вводится / за что он отвечает.
 
+
+## inlay-hints.nvim
+
+[ссылка](https://github.com/simrat39/inlay-hints.nvim)
+
+_Neovim support for LSP Inlay Hints_
+
+В NeoVim 0.10+ вроде б есть нативно, но я не уверен.
 
 ## nvim-dap
 
@@ -176,6 +200,13 @@ _barbar.nvim is a tabline plugin with re-orderable, auto-sizing, clickable tabs,
 ## bufferline.nvim
 
 [ссылка](https://github.com/akinsho/bufferline.nvim)
+
+Из той же серии.
+
+
+## nvim-cokeline
+
+[ссылка](https://github.com/willothy/nvim-cokeline)
 
 Из той же серии.
 
@@ -317,3 +348,87 @@ _Extended textDocument/definition handler that handles assembly/decompilation lo
 [ссылка](https://github.com/bfredl/nvim-luadev)
 
 _REPL / debug console for nvim lua plugins_
+
+
+## tmuxp
+
+[ссылка](https://github.com/tmux-python/tmuxp)
+
+_A session manager for tmux. Built on libtmux._
+
+Возможно мне это пригодится, но вряд ли.
+Там же есть [ссылка](https://leanpub.com/the-tao-of-tmux/read) на прикольную книгу про __tmux__.
+
+
+## dotfyle com
+
+[ссылка](https://dotfyle.com)
+
+_Discover and share Neovim configs_
+
+Какой-то сайт-каталог, где все делятся своими конфигами.
+
+
+## neovimcraft com
+
+[ссылка](https://neovimcraft.com)
+
+_Search through our curated list of neovim plugins_
+
+Какой-то сайт-каталог, список плагинов и не только.
+
+
+## Goto Preview
+
+[ссылка](https://github.com/rmagatti/goto-preview)
+
+_A small Neovim plugin for previewing native LSP's goto definition, type definition, implementation, and references calls in floating windows._
+
+
+## alpha-nvim
+
+[ссылка](https://github.com/goolord/alpha-nvim)
+
+_alpha is a fast and fully programmable greeter for neovim._
+
+Плагин для того, чтобы при запуске NeoVim без файлов,
+можно было показывать что-то другое, вместо стандартного приветствия.
+
+
+## lsp_lines.nvim
+
+[ссылка](https://git.sr.ht/~whynothugo/lsp_lines.nvim)
+
+_lsp_lines is a simple neovim plugin that renders diagnostics using virtual lines on top of the real line of code._
+
+Плагин, который исправляет один из недостатков LSP.
+Обычно диагностика(errors, warnings) показываются в той же строке
+и в экран не влезают. С этим плагином диагностика появляется где-то отдельно
+и в несколько строчек.
+
+
+## code runner
+
+[ссылка](https://github.com/CRAG666/code_runner.nvim)
+
+Runner, чтоб прям из NeoVim запускать код. Возможно
+стоит взять оттуда какие-то идеи.
+
+
+## nvim-navbuddy
+
+[ссылка](https://github.com/SmiteshP/nvim-navbuddy)
+
+Какое-то дерево файла(функции, классы и.т.д) в центре экрана.
+С гифкой по ссылке будет более понятно.
+
+
+## yegappan/lsp
+
+[ссылка](https://github.com/yegappan/lsp)
+
+LSP для обычного Vim.
+Внизу(в README) список похожих плагинов.
+
+
+
