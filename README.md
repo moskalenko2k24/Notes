@@ -6,7 +6,7 @@
 
 ## Фундаментальные штуки
 
-[Алгоритмы и структуры данных](./algo/contents.md)
+[Алгоритмы и структуры данных](./algo/README.md)
 
 [Алгоритмы компьютерной графики, OpenGL](./computer-graphics.md)
 
@@ -20,7 +20,7 @@
 
 [Online IDE](./online-ide.md)
 
-[(Neo)Vim](./vim/contents.md)
+[(Neo)Vim](./vim/README.md)
 
 [Sublime Text(уже не пользуюсь)](./sublime.md)
 
