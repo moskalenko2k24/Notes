@@ -78,3 +78,16 @@
 
 Показывает системную информацию, такую как использование памяти, загруженность процессора,
 температуру и.т.д.
+
+## 10. Browser tabs
+
+[ссылка](https://extensions.gnome.org/extension/4733/browser-tabs/)
+
+_Search and switch to browser tabs using GNOME overview/ArcMenu_
+
+## 11. Dash to Panel
+
+[ссылка](https://extensions.gnome.org/extension/1160/dash-to-panel/)
+
+_An icon taskbar for the Gnome Shell_ \
+Иконки приложений на панели как в Windows / KDE Plasma.
