@@ -28,6 +28,8 @@
 
 [Каталог Gnome-расширений](./gnome-extensions.md)
 
+[Каталог Linux-дистрибутивов](./linux-distros.md)
+
 [Основы Unix (работа в терминале)](./unix.md)
 
 [Командная строка Windows](./win-cmd.md)
