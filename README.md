@@ -22,15 +22,17 @@
 
 [(Neo)Vim](./vim/README.md)
 
-[Sublime Text(уже не пользуюсь)](./sublime.md)
+[Sublime Text (уже не пользуюсь)](./sublime.md)
 
 ## ОС-специфичные штуки
 
 [Каталог Gnome-расширений](./gnome-extensions.md)
 
-[Основы Unix(работа в терминале)](./unix.md)
+[Основы Unix (работа в терминале)](./unix.md)
 
 [Командная строка Windows](./win-cmd.md)
+
+[MacOS (полезные ссылки)](./macos.md)
 
 ## Языки и технологии
 
