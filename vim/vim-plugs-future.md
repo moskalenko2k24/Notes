@@ -435,4 +435,11 @@ LSP для обычного Vim.
 Внизу(в README) список похожих плагинов.
 
 
+## vim-hyperstyle
+
+[ссылка](https://github.com/rstacruz/vim-hyperstyle)
+
+Что-то для более быстрого и удобного написания CSS.
+
+
 
