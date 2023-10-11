@@ -162,3 +162,11 @@ _The core feature of Pop Shell is the addition of advanced tiling window managem
 _A GNOME Shell extension (GNOME Panel applet) to be able
 to generally control your available Docker containers._
 
+### 20. Primary Input on LockScreen
+
+[ссылка](https://extensions.gnome.org/extension/4727/primary-input-on-lockscreen/)
+
+При блокировке экрана часто возникает неудобство:
+текущий язык не английский, и только при вводе пароля
+это может стать понятно, да и то не сразу. Расширение
+автоматически переключает язык при блокировке.
