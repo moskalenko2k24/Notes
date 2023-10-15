@@ -3,6 +3,7 @@
 ## Полезные ссылки
 
 [Nautiterm](https://github.com/mwahlroos/Nautiterm) \
+[nautilus-open-any-terminal](https://github.com/Stunkymonkey/nautilus-open-any-terminal) \
 [Add more than one keyboard shortcut for an action](https://superuser.com/questions/409843/add-more-than-one-keyboard-shortcut-for-an-action-in-gnome) \
 [5 GNOME keyboard shortcuts to be more productive](https://fedoramagazine.org/5-gnome-keyboard-shortcuts-to-be-more-productive/)
 
