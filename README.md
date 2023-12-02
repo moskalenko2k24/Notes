@@ -26,7 +26,7 @@
 
 ## ОС-специфичные штуки
 
-[Каталог Gnome-расширений](./gnome-extensions.md)
+[Каталог Gnome-расширений](./gnome.md)
 
 [Каталог Linux-дистрибутивов](./linux-distros.md)
 
