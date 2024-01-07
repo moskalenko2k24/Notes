@@ -8,8 +8,9 @@
 
 ## Браузерные расширения
 
-[Vimium](https://github.com/philc/vimium) <br>
-[Vimium C](https://github.com/gdh1995/vimium-c)
+[Vimium](https://github.com/philc/vimium) \
+[Vimium C](https://github.com/gdh1995/vimium-c) \
+[Surfingkeys](https://github.com/brookhong/Surfingkeys) - говорят, тут больше возможностей
 
 ## Программы для чтения документов
 
