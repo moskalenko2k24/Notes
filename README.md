@@ -30,7 +30,7 @@
 
 [Каталог Linux-дистрибутивов](./linux-distros.md)
 
-[Каталог Linux-софта](./linux-soft.md)
+[Каталог Linux-софта](./soft-linux.md)
 
 [Основы Unix (работа в терминале)](./unix.md)
 
