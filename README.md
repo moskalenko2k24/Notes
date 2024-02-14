@@ -30,6 +30,8 @@
 
 [Каталог Linux-дистрибутивов](./linux-distros.md)
 
+[Каталог Linux-софта](./linux-soft.md)
+
 [Основы Unix (работа в терминале)](./unix.md)
 
 [Командная строка Windows](./win-cmd.md)
