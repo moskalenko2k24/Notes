@@ -74,3 +74,21 @@ __Пакеты:__ Flatpak, AppImage
 для конфиденциальной связи со сквозным шифрованием.
 
 __Пакеты:__ Debian, Ubuntu, Fedora, Red Hat(RHEL), Open SUSE / SUSE, Alma Linux
+
+## WeeChat
+
+[ссылка](https://weechat.org)
+
+Консольный клиент для IRC-чатов.
+Статья, в которой рассказывают как этим пользоваться [тут](https://habr.com/ru/articles/71875).
+
+__Пакеты:__ Debian, Ubuntu, Fedora и многие другие(по-моему почти на каждом дистре пакет)
+
+## AliveColors
+
+[ссылка](https://alivecolors.com/ru/index.php)
+
+Российская замена Photoshop, не бесплатная, но есть и урезнная бесплатная версия.
+Статья на [Хабре](https://habr.com/ru/companies/x-com/articles/722594).
+
+__Пакеты:__ Debian, Ubuntu, Fedora, OpenSUSE, Alt Linux
