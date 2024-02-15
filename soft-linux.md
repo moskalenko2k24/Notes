@@ -92,3 +92,17 @@ __Пакеты:__ Debian, Ubuntu, Fedora и многие другие(по-мо�
 Статья на [Хабре](https://habr.com/ru/companies/x-com/articles/722594).
 
 __Пакеты:__ Debian, Ubuntu, Fedora, OpenSUSE, Alt Linux
+
+## GoldenDict
+
+[ссылка](http://goldendict.org)
+
+__Пакеты:__ Flatpak, Arch(AUR), Debian, Ubuntu, Fedora, OpenSUSE, Alt Linux, FreeBSD...
+
+## Anki
+
+[ссылка](https://github.com/ankitects/anki)
+
+Статья на [Хабре](https://habr.com/ru/articles/759636).
+
+__Пакеты:__ Flatpak, Debian, Ubuntu...
