@@ -14,10 +14,13 @@
 
 ## Niki Tonsky
 
-[ссылка](https://tonsky.me)
+[ссылка](https://tonsky.me) \
+[Twitter](https://twitter.com/nikitonsky) \
+[Telegram](https://t.me/nikitonsky_pub)
 
 _I’m Niki. Here I write about programming and UI design_
 Clojure, Sublime Text, можно сказать англоязычный блог про ФП.
+
 
 ## GunSmoker
 
