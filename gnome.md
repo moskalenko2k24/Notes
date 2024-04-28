@@ -176,3 +176,12 @@ to generally control your available Docker containers._
 текущий язык не английский, и только при вводе пароля
 это может стать понятно, да и то не сразу. Расширение
 автоматически переключает язык при блокировке.
+
+### 21. Color Picker
+
+[ссылка](https://extensions.gnome.org/extension/3396/color-picker/)
+
+_Simple color picker for GNOME Shell_
+
+Простенькая, но удобная пипетка.
+Достаёт цвет нужного пикселя и отдаёт его в разных форматах.
