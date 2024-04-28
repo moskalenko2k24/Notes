@@ -98,12 +98,17 @@
 
 _Search and switch to browser tabs using GNOME overview/ArcMenu_
 
-### 11. Dash to Panel
+### 11. Dash to Dock
 
-[ссылка](https://extensions.gnome.org/extension/1160/dash-to-panel/)
+[ссылка](https://extensions.gnome.org/extension/307/dash-to-dock/)
 
-_An icon taskbar for the Gnome Shell_ \
-Иконки приложений на панели как в Windows / KDE Plasma.
+_A dock for the Gnome Shell. This extension moves the dash out of the overview transforming it
+in a dock for an easier launching of applications and a faster switching between windows and
+desktops. Side and bottom placement options are available._
+
+Делает панель с иконками, типа как в MacOS. Кому-то так будет удобнее, потянул курсор вниз
+и сразу выбираешь приложение из тех, с которыми часто работаешь. Не нужно тянуться до левого
+верхнего угла. Панель можно настроить, чтоб она появлялась с любой из четырёх сторон.
 
 ### 12. Space Bar
 
