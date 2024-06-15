@@ -2,9 +2,10 @@
 
 ## Браузеры
 
-[Vieb](https://vieb.dev) <br>
-[Vimb](https://fanglingsu.github.io/vimb/) <br>
-[qutebrowser](https://github.com/qutebrowser/qutebrowser)
+[Vieb](https://github.com/Jelmerro/Vieb) \
+[Vimb](https://github.com/fanglingsu/vimb) \
+[qutebrowser](https://github.com/qutebrowser/qutebrowser) \
+[Luakit](https://github.com/luakit/luakit)
 
 ## Браузерные расширения
 
