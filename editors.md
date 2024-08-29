@@ -7,7 +7,7 @@
 
 ### Visual Studio Code
 
-[ссылка](https://code.visualstudio.com)
+[GitHub](https://github.com/microsoft/vscode)
 
 Пока-что лидер, отличная экосистема
 (очень много плагинов, у редактора большое Community = его много кто юзает,
@@ -23,7 +23,7 @@ VS Code не смотря на то, что использует Electron,
 
 ### Atom
 
-[ссылка](https://github.com/atom/atom)
+[GitHub](https://github.com/atom/atom)
 
 Популярный раньше редактор, с открытым исходным кодом,
 который [прекратили поддерживать в 2022](https://github.blog/2022-06-08-sunsetting-atom/),
@@ -51,18 +51,19 @@ Sublime Text с минимальными настройками (или даже
 
 ### CudaText
 
-[ссылка](https://cudatext.github.io)
+[GitHub](https://github.com/Alexey-T/CudaText)
 
 Кроссплатформенный редактор, похожий на Sublime Text,
 но в отличии от него полностью OpenSource, написан на Object Pascal(Lazarus).
-Кстати говоря API для плагинов, использует Python(также как Sublime Text).
-Полезные плагины, включая LSP, можно посмотреть [здесь](https://wiki.freepascal.org/CudaText_plugins).
+Кстати говоря, API для плагинов также использует Python(как и Sublime Text).
+Полезные плагины, включая LSP, можно посмотреть
+[здесь](https://wiki.freepascal.org/CudaText_plugins).
 
 ### Zed
 
-[ссылка](https://zed.dev)
+[GitHub](https://github.com/zed-industries/zed)
 
->Zed is a high-performance, multiplayer code editor __from the creators of Atom and Tree-sitter__.
+_High-performance, multiplayer code editor from the creators of Atom and Tree-sitter_
 
 Новый редактор кода, который претендует одновременно
 на функциональность и скорость. Из описания и скринов
@@ -71,13 +72,13 @@ Sublime Text с минимальными настройками (или даже
 если по скорости он обойдёт Sublime Text, а по функциональности VS Code,
 тогда неудивительно, кто б такое делал задаром.
 
-Пока-что доступен только на MacOS. \
-[Код](https://github.com/zed-industries/zed) уже доступен на GitHub для всех. \
-Дойдёт ли когда-то до поддержки Linux / Windows непонятно.
+Пока-что доступен только на Linux / MacOS. \
+Уже есть [Flatpak](https://flathub.org/apps/dev.zed.Zed).
+Поддержка Windows тоже планируется.
 
 ### Notepad Next
 
-[ссылка](https://github.com/dail8859/NotepadNext)
+[GitHub](https://github.com/dail8859/NotepadNext)
 
 >A cross-platform, reimplementation of Notepad++
 
@@ -85,6 +86,12 @@ Sublime Text с минимальными настройками (или даже
 [Notepad++](https://github.com/notepad-plus-plus/notepad-plus-plus),
 который был только под Windows. Для тех кто к нему сильно привык.
 Доступен для Windows, Linux(Flatpak), MacOS.
+
+### CodeEdit
+
+[GitHub](https://github.com/CodeEditApp/CodeEdit)
+
+Редактор кода исключительно под MacOS, по скринам напоминает VS Code.
 
 ### JetBrains Fleet
 
@@ -95,11 +102,11 @@ Sublime Text с минимальными настройками (или даже
 
 ### Lite
 
-[ссылка](https://github.com/rxi/lite)
+[GitHub](https://github.com/rxi/lite)
 
 ### Nano
 
-[ссылка](https://www.nano-editor.org)
+[сайт](https://www.nano-editor.org)
 
 Редактор для терминалов. Удобен тем,
 что имеет интуитивно понятный интерфейс,
@@ -112,17 +119,17 @@ Nano подойдёт только для совсем простых целей
 
 ### Micro
 
-[ссылка](https://micro-editor.github.io)
+[GitHub](https://github.com/zyedidia/micro)
 
 Ещё один редактор для терминалов.
 Более продвинутый, но как я понимаю, не такой "заумный" как Vim.
 
 ### CP Editor
 
-[ссылка](https://cpeditor.org)
+[GitHub](https://github.com/cpeditor/cpeditor)
 
+CP – Competitive Programming.
 Редактор кода для спортивных программистов.
-CP означает Competitive Programming.
 С этим редактором проще прогнать код на нескольких тестах,
 более того прямо из редактора можно сделать Submit кода на CodeForces.
 
@@ -130,23 +137,23 @@ CP означает Competitive Programming.
 
 ### Vim
 
-[ссылка](https://www.vim.org)
+[GitHub](https://github.com/vim/vim)
 
 Тут и рассказывать ничего не надо.
 Не интуитивно понятный UI / UX, к которому тяжело привыкнуть.
 Но зато это очень быстрый редактор с очень хорошей экосистемой.
-Я перешёл на Vim(а позже на NeoVim) из-за того что и быстрый и под него делают
+Я перешёл на Vim (а позже на NeoVim) из-за того что и быстрый и под него делают
 нормальные LSP-плагины, добавляющие важный функционал для работы с кодом.
 
 ### NeoVim
 
-[ссылка](https://neovim.io)
+[GitHub](https://github.com/neovim/neovim)
 
 Улучшенный Vim. В нём есть встроенные штуки для LSP.
 Не всё в NeoVim идеально, но для разработки он хорош.
 И хорош он тем, что вокруг него выстраивается своя экосистема
 плагинов на Lua, да и вообще с Lua-конфигом как-то удобнее
-и красивее выходит чем с VimScript(субъективно). Но и
+и красивее выходит чем с VimScript (субъективно). Но и
 плагины под чистый Vim можно спокойно использовать.
 А это по сути значит, что в NeoVim экосистема шире,
 можно использовать и Vim'овские плагины на VimScript,
@@ -158,11 +165,11 @@ CP означает Competitive Programming.
 
 ### Kakoune
 
-[ссылка](https://kakoune.org)
+[GitHub](https://github.com/mawww/kakoune)
 
 ### Helix
 
-[ссылка](https://github.com/helix-editor/helix)
+[GitHub](https://github.com/helix-editor/helix)
 
 _A Kakoune / Neovim inspired editor, written in Rust._
 
@@ -172,7 +179,8 @@ _A Kakoune / Neovim inspired editor, written in Rust._
 
 ### Emacs
 
-[ссылка](https://www.gnu.org/software/emacs/)
+[сайт](https://www.gnu.org/software/emacs/),
+[GitHub(зеркало)](https://github.com/emacs-mirror/emacs)
 
 Широко известный в узких кругах.
 Говорят там возможностей ещё больше чем в Vim,
@@ -182,13 +190,16 @@ _A Kakoune / Neovim inspired editor, written in Rust._
 
 ### Spacemacs
 
-[ссылка](https://www.spacemacs.org)
+[GitHub](https://github.com/syl20bnr/spacemacs)
 
-Какая-то смесь Vim и Emacs.
+_A community-driven Emacs distribution.
+The best editor is neither Emacs nor Vim, it's Emacs *and* Vim!_
+
+Какая-то смесь Emacs и Vim.
 
 ### SpaceVim
 
-[ссылка](https://spacevim.org)
+[сайт](https://spacevim.org)
 
 Готовая сборка Vim со своими фишками,
 типа множественного выделения.
