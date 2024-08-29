@@ -128,7 +128,7 @@ Nano подойдёт только для совсем простых целей
 
 [GitHub](https://github.com/cpeditor/cpeditor)
 
-CP – Competitive Programming.
+CP – Competitive Programming. \
 Редактор кода для спортивных программистов.
 С этим редактором проще прогнать код на нескольких тестах,
 более того прямо из редактора можно сделать Submit кода на CodeForces.
@@ -166,6 +166,10 @@ CP – Competitive Programming.
 ### Kakoune
 
 [GitHub](https://github.com/mawww/kakoune)
+
+_Kakoune is a code editor that implements Vi’s "keystrokes as a text editing language"
+model. As it is also a modal editor, it is somewhat similar to the Vim editor (after which
+Kakoune was originally inspired)._
 
 ### Helix
 
