@@ -1,32 +1,43 @@
 # C++. Полезное
 
-## Самое важное
+## Официальный сайт
 
-[cplusplus](https://cplusplus.com) <br>
-Документация по языку и стандартной библиотеке.
+https://isocpp.org \
+_Официальный сайт_
 
-[C++ Reference](https://en.cppreference.com/w/) <br>
-Документация по языку и стандартной библиотеке.
+https://isocpp.org/faq \
+_FAQ. Тут собраны основные грабли, много полезной информации_
 
-[Bjarne Stroustrup](https://www.stroustrup.com) <br>
-Сайт создателя C++.
+https://github.com/isocpp/CppCoreGuidelines \
+_Set of tried-and-true guidelines, rules, and best practices about coding in C++_
 
-[Standard C++](https://isocpp.org) <br>
-Сайт стандарта C++.
+https://eel.is/c++draft/ \
+_Черновик текущего стандарта C++ (оригинал стоит денег)_
 
-[Draft C++ Standard](https://eel.is/c++draft/) <br>
-Черновик текущего стандарта C++.
+https://www.stroustrup.com \
+_Сайт создателя C++_
 
-[C++ FAQ](https://isocpp.org/faq) <br>
-Тут собраны важные грабли.
+## Документация
 
-[C++ Core Guidelines](https://github.com/isocpp/CppCoreGuidelines) <br>
-(проще говоря набор хороших практик) <br>
-_set of tried-and-true guidelines, rules, and best practices about coding in C++_
+Документация по стандартной библиотеке языка и не только.
 
-[UB Book (на русском)](https://github.com/Nekrolm/ubbook) <br>
-Отличная книга, описаны много известных граблей,
-на которые легко наступить, не понимая что происходит.
+https://cplusplus.com
+
+https://en.cppreference.com
+
+## Undeifned Behaviour (UB)
+
+По [стандарту](https://eel.is/c++draft/) программы, содержащие UB,
+могут работать правильно, если повезло, могут в какой-то момент работать
+совсем не так как ожидалось и.т.д. Непредсказуемое поведение, которое зависит
+от компилятора, флагов компиляции / оптимизации, ОС, случайности.
+Код может сегодня работать, завтра нет и это тяжело дебажить.
+
+Более подробно о том, что такое UB и как оно проявляется, можно почитать
+[тут](https://github.com/Nekrolm/ubbook/blob/master/what_is_ub.md).
+
+[UB Book (на русском)](https://github.com/Nekrolm/ubbook) \
+_Отличная книга / репозиторий, описаны много известных граблей_
 
 [P1705R0 Enumerating Core UB](https://www.open-std.org/jtc1/sc22/wg21/docs/papers/2019/p1705r0.html)
 
