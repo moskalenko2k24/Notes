@@ -45,3 +45,7 @@
 [JavaScript](./javascript/1-js-general.md)
 
 [Frontend](./javascript/2-js-frontend.md)
+
+## Разное
+
+[Telegram](./telegram/README.md)
