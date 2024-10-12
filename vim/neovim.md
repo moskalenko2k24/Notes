@@ -31,8 +31,8 @@
 [Как я переписывал vim конфиг в init.lua (хабр)](https://habr.com/ru/articles/586808/) \
 [Basic Lua based Neovim configuration (видео)](https://www.youtube.com/watch?v=ppMX4LHIuy4) \
 [Everything you need to know to configure neovim using lua](https://vonheikemen.github.io/devlog/tools/configuring-neovim-using-lua/) \
-[chris@machine(YouTube-канал)](https://www.youtube.com/c/ChrisAtMachine/videos)
-
+[chris@machine (YouTube-канал)](https://www.youtube.com/c/ChrisAtMachine/videos) \
+[Basic Lua based Neovim configuration (YouTube)](https://www.youtube.com/watch?v=ppMX4LHIuy4)
 
 ## Плагины must-have
 
