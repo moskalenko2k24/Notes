@@ -49,3 +49,5 @@
 ## Разное
 
 [Telegram](./telegram/README.md)
+
+[Горячие клавишы Excel](./excel-hotkeys.md)
