@@ -85,7 +85,7 @@ sudo make install
 cd ../extension
 make install  # no sudo requred!
 sudo dnf install gnome-extensions-app
-# после этого включить G3kbSwitch в GNOME Extensions 
+# после этого включить G3kbSwitch в GNOME Extensions
 # (расширение может быть не видно, тогда возможно придется перезагрузиться)
 ```
 
@@ -130,7 +130,7 @@ Plug 'tpope/vim-surround'
 
 [ссылка](https://github.com/sickill/vim-pasta)
 
-Плагин переопределяет стандартные 
+Плагин переопределяет стандартные
 команды `p` и `P` таким образом,
 чтобы при вставке куска кода,
 код автоматически выравнивался
@@ -160,7 +160,7 @@ Plug 'tyru/caw.vim'
 Лучше прочитать [на официальном сайте](https://editorconfig.org), что это за штука.
 Но если коротко, EditorConfig это специальный файл, в котором задаются
 параметры, такие как ширина отступа, тип отступа(пробел / таб), символ "конец строки" (Win / Unix) и.т.д.
-А IDE / редакторы с помощью плагина, для каждого конкретного проекта выставляют нужные настройки, 
+А IDE / редакторы с помощью плагина, для каждого конкретного проекта выставляют нужные настройки,
 таким образом в одном редакторе можно поддерживать разные настройки(типа отступов) для разных проектов.
 И это удобно для работы в команде, с одним EditorConfig
 для одного проекта будут одинаковые настройки (отступы и вот это всё) в разных IDE.
@@ -233,14 +233,14 @@ let g:VM_maps["Add Cursor Down"] = '<C-Down>'
 и дальше нажимаю `i` чтобы перейти в режим вставки.
 
 
-## Плагины для конкретных языков
+## Плагины для Markdown
 
-## Markdown
+### markdown-preview.nvim
 
 [ссылка](https://github.com/iamcco/markdown-preview.nvim)
 
 Плагин позволяет просматривать .md файл
-в браузере и автоматически меняет страницу при любых изменениях файла 
+в браузере и автоматически меняет страницу при любых изменениях файла
 (сохраненять файл для этого не нужно).
 Сервер требует установленного Node.js и yarn, а запускается командой `:MarkdownPreview`.
 
@@ -249,20 +249,45 @@ Plug 'iamcco/markdown-preview.nvim', { 'do': 'cd app && yarn install' }
 let g:mkdp_page_title = '${name}.md'
 ```
 
-## VIM Table Mode
+### vim-table-mode
 
 [ссылка](https://github.com/dhruvasagar/vim-table-mode)
 
-Плагин позволяет автоматически выравнивать таблицы в Markdown
-файле при наборе. Для того чтобы плагин начал работу,
-необходимо набрать `\tm` (или другой символ вместо `\`
-если Leader-key переопределен).
+Плагин позволяет выравнивать текст в таблицах в Markdown файлах.
+Это очень удобно: просто набираешь таблицу и не думаешь как сделать так, чтобы
+в "сыром" виде она смотрелась красиво. Текст выравнивается в таблицах автоматически при наборе.
+
+Для того чтобы плагин начал работу,
+необходимо набрать `<Leader>tm` (по умолчанию `\tm` если `<Leader>` не переопределен).
 
 ```vim
 Plug 'dhruvasagar/vim-table-mode'
 ```
 
+### vim-markdown-folding
+
+__Не пробовал.__
+
+[ссылка](https://github.com/masukomi/vim-markdown-folding)
+
+_This plugin enables folding by section headings in markdown documents._
+
+Плагин для того, чтобы сворачивать часть документа под заголовком.
+
+### vim-markdown
+
+__Не пробовал.__
+
+[ссылка](https://github.com/preservim/vim-markdown)
+
+Какой-то набор полезностей для более удобной работы с Markdown.
+
+
 ## LaTeX
+
+### vimtex
+
+__Не пробовал.__
 
 [ссылка](https://github.com/lervag/vimtex)
 
@@ -278,11 +303,12 @@ let g:vimtex_view_method = 'zathura'
 
 ##  JavaScript / TypeScript
 
-[ссылка](https://github.com/yuezk/vim-js)
-[ссылка](https://github.com/maxmellon/vim-jsx-pretty)
-[ссылка](https://github.com/HerringtonDarkholme/yats.vim)
+[vim-js](https://github.com/yuezk/vim-js)
+[vim-jsx-pretty](https://github.com/maxmellon/vim-jsx-pretty)
+[yats.nvim](https://github.com/HerringtonDarkholme/yats.vim)
 
 Плагины, которые я использую для корректной подсветки синтаксиса JavaScript и TypeScript.
+__UPDATE.__ Возможно это уже неактуально, особенно для NeoVim с его TreeSitter.
 
 ```vim
 Plug 'yuezk/vim-js'
@@ -290,3 +316,36 @@ Plug 'maxmellon/vim-jsx-pretty'
 Plug 'HerringtonDarkholme/yats.vim'
 ```
 
+## vimspector
+
+[ссылка](https://github.com/puremourning/vimspector)
+
+_A multi-language debugging system for Vim_
+
+## qalc.nvim
+
+[ссылка](https://github.com/Apeiros-46B/qalc.nvim)
+
+Какой-то интерактивный калькулятор.
+
+## nvim-spectre
+
+[ссылка](https://github.com/nvim-pack/nvim-spectre)
+
+Плагин для удобного поиска и замены.
+
+_A search panel for neovim._ \
+_Spectre find the enemy and replace them with dark power._
+
+
+## vim-dadbod-ui
+
+[ссылка](https://github.com/kristijanhusak/vim-dadbod-ui)
+
+Интерфейс для работы с БД, не выходя из Vim.
+
+## nvim-dbee
+
+[ссылка](https://github.com/kndndrj/nvim-dbee)
+
+_Interactive database client for NeoVim_
