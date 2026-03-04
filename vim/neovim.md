@@ -20,7 +20,8 @@
 [LazyVim](https://github.com/LazyVim/LazyVim) \
 [DoomNvim](https://github.com/doom-neovim/doom-nvim)
 [CosmicNvim](https://github.com/CosmicNvim/CosmicNvim) \
-[LunarVim](https://github.com/LunarVim/LunarVim)
+[LunarVim](https://github.com/LunarVim/LunarVim) \
+[AstroNvim](https://github.com/AstroNvim/AstroNvim) \
 [nvim-basic-ide](https://github.com/LunarVim/nvim-basic-ide)
 
 ## Lua и NeoVim
