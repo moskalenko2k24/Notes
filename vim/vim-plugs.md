@@ -1,9 +1,11 @@
-# Лучшие плагины для Vim
+# Любимые плагины для Vim / NeoVim
 
-## Установка плагинов
+Здесь я описываю только то,
+что мне самому было нужно и то что мне зашло.
 
-Здесь я описываю только то, что мне самому было нужно и то что мне зашло. <br>
-Как менеджер плагинов я использую [vim-plug](https://github.com/junegunn/vim-plug).
+## Установка плагинов в Vim
+
+Как менеджер плагинов я использовал раньше [vim-plug](https://github.com/junegunn/vim-plug).
 
 Менеджер плагинов ставится командой (из ссылки выше)
 ```bash
@@ -30,85 +32,55 @@ call plug#end()
 
 Буду использовать `C` как сокращение для `Ctrl`, т.е например `C-x` значит `Ctrl + X`.
 
-## Установка темы
+## Темы
 
-[ссылка](https://github.com/joshdick/onedark.vim)
+### OneDark
 
-```vim
-" call plug#begin('~/.vim/plugged')
-" ...
-Plug 'joshdick/onedark.vim', { 'branch': 'main' }
-" ...
-" call plug#end()
+[onedark.vim](https://github.com/joshdick/onedark.vim) \
+[onedark.nvim](https://github.com/navarasu/onedark.nvim)
 
-colorscheme onedark
-```
-
-![Python Code, example](./onedark.png)
+<!-- ![Python Code, example](./onedark.png) -->
 
 ## Общие плагины (независимо от типа файла)
 
-### Автоматическое переключение языка
+### Автоматическое переключение языка ввода
 
 [ссылка](https://github.com/lyokha/vim-xkbswitch)
 
-Команды в нормальном режиме можно набирать только английским языком.
+Команды в нормальном режиме можно набирать только на английском языке.
 Набирать `вв` вместо  `dd` или `з` вместо `p` нельзя.
-Но это очень неудобно, когда набираешь текст на двух языках сразу.
-Плагин автоматически переключает язык на английский,
-при переходе в нормальный режим, и в режиме вставки восстанавливает
-тот язык, который был до перехода в нормальный режим.
 
-```vim
-" call plug#begin('~/.vim/plugged')
-" ...
-Plug 'lyokha/vim-xkbswitch'
-let g:XkbSwitchEnabled = 1
-let g:XkbSwitchLib = '/usr/local/lib/libg3kbswitch.so'
-" ...
-" call plug#end()
-```
+Это очень неудобно, когда набираешь текст на двух языках сразу.
+Плагин автоматически переключает язык на английский, при переходе в нормальный режим,
+и в режиме вставки восстанавливает тот язык, который был до перехода в нормальный режим.
 
 Плагин требует зависимого от ОС переключателя языка
-(XkbSwitch requires OS dependent keyboard layout switcher).
-Подробно можно почитать по ссылке, для GNOME 40+ я выполняю такие команды
-([отсюда](https://github.com/lyokha/g3kb-switch)).
+>XkbSwitch requires OS dependent keyboard layout switcher.
 
-```bash
-sudo dnf install glib2-devel
-git clone https://github.com/lyokha/g3kb-switch
-cd g3kb-switch
-mkdir build && cd build
-cmake -DCMAKE_BUILD_TYPE=Release -DG3KBSWITCH_WITH_GNOME_SHELL_EXTENSION=ON ..
-make
-sudo make install
-cd ../extension
-make install  # no sudo requred!
-sudo dnf install gnome-extensions-app
-# после этого включить G3kbSwitch в GNOME Extensions
-# (расширение может быть не видно, тогда возможно придется перезагрузиться)
-```
+Подробно можно почитать по ссылке, для GNOME 40+
+я использую [g3kb-switch](https://github.com/lyokha/g3kb-switch),
+который уже опакечен под Fedora (устанавливается одной командой).
 
 ### Авто-вставка парных симвлов
 
-[ссылка](https://github.com/jiangmiao/auto-pairs)
+[auto-pairs](https://github.com/jiangmiao/auto-pairs) \
+[nvim-autopairs](https://github.com/windwp/nvim-autopairs)
 
-Плагин, который автоматически добавляет закрывающую скобку, кавычку и.т.д.
+Плагин, который автоматически добавляет закрывающую скобку нужного типа, кавычку и.т.д.
 
-```vim
-Plug 'jiangmiao/auto-pairs'
-```
+### Действия со скобками
 
-### Обернуть в скобки
-
-[ссылка](https://github.com/tpope/vim-surround)
+[vim-surround](https://github.com/tpope/vim-surround) \
+[nvim-surround](https://github.com/kylechui/nvim-surround)
 
 Плагин позволяет поставить парные символы вокруг текста или изменить их.
 
-Командой `S(` в режиме выделения(visual) можно добавить
+Командой `S(` в режиме выделения (visual) можно добавить
 скобки (или другие парные символы, например кавычки) вокруг выделенного текста.
 Это работает даже с HTML-тегами, например `S<div>` добавит открывающий и закрывающий тег вокруг текста.
+
 Командой `cs"'` можно изменить тип кавычек (работает с любыми парными символами).
+
 На момент написания заметки, у плагина слегка странное поведение,
 если использовать команду `S(`, то кроме скобок добавляется
 по одному пробелу (внутри скобок, до и после текста), если
@@ -116,122 +88,82 @@ Plug 'jiangmiao/auto-pairs'
 а плагин понимает что нужно до текста вставить `(`, а после текста `)`.
 
 Для изменения тега используется команда `cst<tag>`.
+
 Для удаления скобок команда `ds(`.
+
 Также для добавления круглых скобок используется `Sb`.
 
-[Тут](https://superuser.com/questions/875095/adding-parenthesis-around-highlighted-text-in-vim/875160)
-еще больше про этот плагин.
-
-```vim
-Plug 'tpope/vim-surround'
-```
+По ссылке ниже еще больше про этот плагин. \
+[Adding parenthesis around highlighted text in Vim](https://superuser.com/questions/875095/adding-parenthesis-around-highlighted-text-in-vim/875160)
 
 ### Вставка с нужным отступом
 
 [ссылка](https://github.com/sickill/vim-pasta)
 
-Плагин переопределяет стандартные
-команды `p` и `P` таким образом,
-чтобы при вставке куска кода,
-код автоматически выравнивался
-и отступ соответствовал уровню вложенности.
-
-```vim
-Plug 'sickill/vim-pasta'
-```
+Плагин переопределяет стандартные команды `p` и `P`
+таким образом, чтобы вставленный кусок кода автоматически
+выравнивался и отступ соответствовал уровню вложенности.
 
 ### Комментирование кода
 
-[ссылка](https://github.com/tyru/caw.vim)
+[caw.vim](https://github.com/tyru/caw.vim) \
+[nvim-comment](https://github.com/terrortylor/nvim-comment)
 
-Плагин, с помощью которого очень легко
+Плагины, с помощью которых очень легко
 закомментировать / раскомментировать часть кода.
-По умолчанию это делается с помощью команды `gcc`.
-Поддерживает более 300 типов файлов.
 
-```vim
-Plug 'tyru/caw.vim'
-```
+Я сейчас использую __nvim-comment__.
+Закомментировать и расскоментировать выделенный код
+или текущую строку можно командой `gcc`.
+
+`gc4j` позволяет закомментировать / расскоментировать
+текущую строку и 3 строки ниже, т.е 4 строки, начиная с текущей.
 
 ### EditorConfig
 
-[ссылка](https://github.com/editorconfig/editorconfig-vim)
+[editorconfig-vim](https://github.com/editorconfig/editorconfig-vim) \
+[editorconfig.nvim](https://github.com/gpanders/editorconfig.nvim)
 
-Лучше прочитать [на официальном сайте](https://editorconfig.org), что это за штука.
-Но если коротко, EditorConfig это специальный файл, в котором задаются
-параметры, такие как ширина отступа, тип отступа(пробел / таб), символ "конец строки" (Win / Unix) и.т.д.
+__UPDATE.__ \
+В Vim уже есть встроенная поддержка EditorConfig. \
+В NeoVim уже есть встроенный плагин для этого, который включен по умолчанию.
+
+EditorConfig это специальный файл, в котором задаются параметры, такие как
+ширина отступа, тип отступа (пробел / таб), символ "конец строки" (Win / Unix) и.т.д.
+
 А IDE / редакторы с помощью плагина, для каждого конкретного проекта выставляют нужные настройки,
-таким образом в одном редакторе можно поддерживать разные настройки(типа отступов) для разных проектов.
-И это удобно для работы в команде, с одним EditorConfig
+таким образом в одном редакторе можно поддерживать разные отступы, line ending'и для разных проектов.
+
+Это удобно для работы в команде, с одним EditorConfig
 для одного проекта будут одинаковые настройки (отступы и вот это всё) в разных IDE.
 
-```vim
-Plug 'editorconfig/editorconfig-vim'
-```
 
 ### Дерево файлов
 
-[ссылка](https://github.com/preservim/nerdtree)
+[nerdtree](https://github.com/preservim/nerdtree) \
+[neo-tree.nvim](https://github.com/nvim-neo-tree/neo-tree.nvim) \
+[nvim-tree.lua](https://github.com/nvim-tree/nvim-tree.lua)
 
-Плагин позволяет открыть слева дерево файлов, для навигации по проекту.
+### Навигация по файлам
 
-Стандартный биндинг `C-N` (`N` можно запомнить как `Navigate`) позволяет открыть / закрыть дерево.
-Можно добавить игнорируемые директории, с помощью `g:NERDTreeIgnore`.
+[ctrlp.vim](https://github.com/ctrlpvim/ctrlp.vim) \
+[fzf.vim](https://github.com/junegunn/fzf.vim) \
+[fzf-lua](https://github.com/ibhagwan/fzf-lua) \
+[telescope.nvim](https://github.com/nvim-telescope/telescope.nvim)
 
-```vim
-Plug 'preservim/nerdtree'
-" Open file tree with C-N
-nnoremap <C-n> :NERDTreeToggle<CR>
-" Ingore some directories
-let g:NERDTreeIgnore = ['^node_modules$']
-```
+Плагины для быстрого поиска файла по имени.
+Для NeoVim "стандартом" является __telescope.nvim__.
+Для Vim - __fzf.vim__. __fzf.lua__ это __fzf__ под NeoVim.
 
-### Навигация с помощью Ctrl + P
+### nvim-spectre
 
-[ссылка](https://github.com/ctrlpvim/ctrlp.vim)
+[ссылка](https://github.com/nvim-pack/nvim-spectre)
 
-Плагин добавляет возможность перехода к нужному файлу через `C-P`.
-Достаточно набрать часть имени файла и найдутся файлы с похожим именем.
+Плагин для удобного поиска и замены.
+Не пробовал, но думаю годная штука.
 
-```vim
-Plug 'ctrlpvim/ctrlp.vim'
-```
-
-### Навигация по файлам с предпросмотром
-
-[ссылка](https://github.com/junegunn/fzf.vim)
-
-Чтобы найти нужный файл, используется команда `:Files`.
-
-```vim
-Plug 'junegunn/fzf', { 'do': { -> fzf#install() } }
-Plug 'junegunn/fzf.vim'
-```
-
-### Мультикурсоры
-
-[ссылка](https://github.com/mg979/vim-visual-multi)
-
-Плагин, с помощью которого можно использовать мультикурсоры,
-примерно как в Sublime Text, VS Code и других подобных им редакторам.
-
-[Здесь](https://github.com/mg979/vim-visual-multi/wiki/Mappings)
-можно подробно почитать про настройку.
-Я же отключаю стандартные комбинации клавиш,
-и оставляю только `C-Up` / `C-Down`.
-Стандартный `C-N`(который добавляет курсор к следующему слову) у меня перекрывает `C-N` от NERDTree, да и особо не пользуюсь я таким.
-
-```vim
-" Multicursors
-Plug 'mg979/vim-visual-multi'
-" Disable standard mappings
-let g:VM_maps = {}
-let g:VM_maps["Add Cursor Up"]   = '<C-Up>'
-let g:VM_maps["Add Cursor Down"] = '<C-Down>'
-```
-Чтобы включить мультикурсоры, нажимаю `C-Up` / `С-Down`,
-и дальше нажимаю `i` чтобы перейти в режим вставки.
-
+_A search panel for neovim._ \
+_Spectre find the enemy and replace them with dark power._
 
 ## Плагины для Markdown
 
@@ -257,12 +189,9 @@ let g:mkdp_page_title = '${name}.md'
 Это очень удобно: просто набираешь таблицу и не думаешь как сделать так, чтобы
 в "сыром" виде она смотрелась красиво. Текст выравнивается в таблицах автоматически при наборе.
 
-Для того чтобы плагин начал работу,
+Плагин даже если его подключить (с помощью менеджера плагинов),
+сам работать не начнёт в открытом Markdown-файле. Для того чтобы плагин начал работу,
 необходимо набрать `<Leader>tm` (по умолчанию `\tm` если `<Leader>` не переопределен).
-
-```vim
-Plug 'dhruvasagar/vim-table-mode'
-```
 
 ### vim-markdown-folding
 
@@ -316,36 +245,3 @@ Plug 'maxmellon/vim-jsx-pretty'
 Plug 'HerringtonDarkholme/yats.vim'
 ```
 
-## vimspector
-
-[ссылка](https://github.com/puremourning/vimspector)
-
-_A multi-language debugging system for Vim_
-
-## qalc.nvim
-
-[ссылка](https://github.com/Apeiros-46B/qalc.nvim)
-
-Какой-то интерактивный калькулятор.
-
-## nvim-spectre
-
-[ссылка](https://github.com/nvim-pack/nvim-spectre)
-
-Плагин для удобного поиска и замены.
-
-_A search panel for neovim._ \
-_Spectre find the enemy and replace them with dark power._
-
-
-## vim-dadbod-ui
-
-[ссылка](https://github.com/kristijanhusak/vim-dadbod-ui)
-
-Интерфейс для работы с БД, не выходя из Vim.
-
-## nvim-dbee
-
-[ссылка](https://github.com/kndndrj/nvim-dbee)
-
-_Interactive database client for NeoVim_

@@ -83,21 +83,22 @@ _Neovim support for LSP Inlay Hints_
 
 В NeoVim 0.10+ вроде б есть нативно, но я не уверен.
 
-## nvim-dap
+## Мультикурсоры
 
-[ссылка](https://github.com/mfussenegger/nvim-dap)
-
-_Debug Adapter Protocol client implementation for Neovim_
-
-Плагин для замены IDE-шного отладчика. Очень интересно.
+[vim-visual-multi](https://github.com/mg979/vim-visual-multi) \
+[multicursor.nvim](https://github.com/jake-stewart/multicursor.nvim)
 
 
-## vimspector
 
-[ссылка](https://github.com/puremourning/vimspector)
+## Отладка
 
-Графический отладчик для Vim. Т.е когда визуально видны __breakpoints__ и вот это всё.
+[vimspector](https://github.com/puremourning/vimspector) \
+[nvim-dap](https://github.com/mfussenegger/nvim-dap)
 
+## Интерфейсы для работы с БД
+
+[vim-dadbod-ui](https://github.com/kristijanhusak/vim-dadbod-ui) \
+[nvim-dbee](https://github.com/kndndrj/nvim-dbee)
 
 ## langmapper.nvim
 
@@ -442,4 +443,8 @@ LSP для обычного Vim.
 Что-то для более быстрого и удобного написания CSS.
 
 
+## qalc.nvim
 
+[ссылка](https://github.com/Apeiros-46B/qalc.nvim)
+
+Какой-то интерактивный калькулятор.
